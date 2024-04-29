@@ -1,0 +1,11 @@
+{
+  "name": "lws-react-query-server-module5.3",
+  "version": "1.0.0",
+  "description": "this is a mock api server created with json server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
