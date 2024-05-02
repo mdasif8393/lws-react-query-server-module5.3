@@ -4,8 +4,14 @@
   "description": "this is a mock api server created with json server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch ./database/data.json"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@tanstack/react-query": "^5.32.0",
+    "axios": "^1.6.8",
+    "json-server": "^1.0.0-alpha.23"
+  }
 }
